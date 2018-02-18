@@ -1,0 +1,7 @@
+.hover {
+  border: solid;
+}
+
+.hover:hover {
+  border-radius: 50%;
+}
