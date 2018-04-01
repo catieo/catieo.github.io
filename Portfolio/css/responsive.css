@@ -15,7 +15,6 @@
     display: block;
     font-size: 48px;
     margin: 10px;
-    font-weight: bold;
     color: black;
     background: floralwhite;
     width: 40%;
@@ -38,7 +37,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background: radial-gradient(floralwhite, pink);
+    background: radial-gradient(mistyrose, pink);
     border-radius: 20px;
   }
   .nav {

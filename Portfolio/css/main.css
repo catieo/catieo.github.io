@@ -156,6 +156,7 @@ embed {
 .portfolio-item p {
   background: floralwhite;
   color: black;
+  border-radius: 5px;
 }
 
 .portfolio-item img {
