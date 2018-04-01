@@ -11,12 +11,17 @@
   .nav h1 {
     display: none;
   }
-  .main h1 {
+  .content-title {
     display: block;
     font-size: 48px;
     margin: 10px;
     font-weight: bold;
-    color: hotpink;
+    color: black;
+    background: floralwhite;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
   }
 }
 
@@ -34,7 +39,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background: radial-gradient(floralwhite, pink);
-    border-radius: 5px;
+    border-radius: 20px;
   }
   .nav {
     background: none;
@@ -66,8 +71,10 @@
     font-size: 30px;
     background: none;
   }
-  .main h1 {
-    text-align: left;
+  .content-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0;
   }
   .portfolio {
     display: grid;
