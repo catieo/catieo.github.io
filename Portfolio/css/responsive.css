@@ -1,0 +1,127 @@
+/* tablet view  */
+@media screen and (min-width : 650px){
+  .header {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+  }
+  .nav-menu ul li {
+    display: inline-block;
+  }
+  .nav h1 {
+    display: none;
+  }
+  .main h1 {
+    display: block;
+    font-size: 48px;
+    margin: 10px;
+    font-weight: bold;
+    color: hotpink;
+  }
+}
+
+/* full screen view */
+@media screen and (min-width : 1000px){
+  .name {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background: radial-gradient(floralwhite, pink);
+    border-radius: 5px;
+  }
+  .nav {
+    background: none;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .logo {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: end;
+    margin-top: 20px;
+  }
+  .name {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    font-size: 100px;
+    text-align: left;
+    padding-left: 10px;
+    display: inline-block;
+  }
+  .nav-menu ul li{
+    font-size: 30px;
+    background: none;
+  }
+  .main h1 {
+    text-align: left;
+  }
+  .portfolio {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .a {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .b {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .c {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .portfolio-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+  }
+  .i {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+  }
+  .p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: center;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .about-p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+  }
+  .about-i {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+  }
+
+
+
+}

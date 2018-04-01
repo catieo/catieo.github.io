@@ -1,0 +1,186 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: mistyrose;
+  padding: 5px;
+  margin: 5px;
+  background-image: url("../img/succulents.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* nav styles */
+nav{
+  margin: auto;
+  text-align: center;
+  background: rgba(255, 250, 240, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+}
+.nav h1{
+  padding: 10px;
+}
+.nav ul li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background: pink;
+}
+.nav ul li a:active {
+  color: pink;
+}
+.nav ul li a.current {
+  color: hotpink;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* logo styles */
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.logo img{
+  border-radius: 100%;
+}
+.name {
+  display: none;
+}
+
+/* footer styles */
+footer {
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 250, 240, 0.8);
+  padding: 10px;
+}
+
+.footer ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.footer a {
+  color: pink;
+  background: white;
+  border-radius: 5px;
+}
+
+.footer p {
+  padding: 5px;
+}
+
+/* main div */
+.main {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.main h1 {
+  display: none;
+}
+
+.main-content {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+.main-content::first-line {
+  font-size: 48px;
+}
+
+.about-content p {
+  padding: 10px;
+  background: floralwhite;
+  color: black;
+}
+
+.about-content img {
+  padding: 10px;
+  background: floralwhite;
+  border-radius: 5px;
+}
+
+embed {
+  width: 90%;
+  height: 100vh;
+}
+
+.portfolio-item {
+  padding: 10px;
+  margin: 5px;
+}
+.portfolio-item p {
+  background: floralwhite;
+  color: black;
+}
+
+.portfolio-item img {
+  padding: 10px;
+  background: floralwhite;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.portfolio-heading {
+  font-size: 20px;
+}
+
+.portfolio-item a {
+  text-decoration: none;
+  color: hotpink;
+}
+
+.contact-content {
+  padding: 10px;
+  background: floralwhite;
+  color: black;
+  border-radius: 5px;
+}
+.contact-content a {
+  text-decoration: none;
+  color: hotpink;
+}
