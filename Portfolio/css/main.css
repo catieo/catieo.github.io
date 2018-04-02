@@ -60,6 +60,10 @@ nav{
 }
 .nav ul li a.current {
   color: hotpink;
+  font-weight: bold;
+}
+.nav-menu ul li.current {
+  border: 3px solid hotpink;
 }
 
 .nav a {
@@ -116,6 +120,7 @@ footer {
   text-align: center;
   font-weight: bold;
   margin-bottom: 100px;
+  margin-top: 10px;
 }
 
 .content-title {
@@ -123,10 +128,12 @@ footer {
 }
 
 .main-content {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 36px;
   font-weight: bold;
+  background: floralwhite;
+  border-radius: 5px;
 }
 .main-content::first-line {
   font-size: 48px;
@@ -136,6 +143,7 @@ footer {
   padding: 10px;
   background: floralwhite;
   color: black;
+  border-radius: 5px;
 }
 
 .about-content img {
