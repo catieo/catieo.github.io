@@ -69,6 +69,9 @@ nav{
 .nav a {
   text-decoration: none;
   color: white;
+  display: inline-block;
+  padding: 1em 8em 1em 8em;
+  margin: -1em -8em -1em -8em;
 }
 
 /* logo styles */
@@ -155,6 +158,15 @@ footer {
 embed {
   width: 90%;
   height: 100vh;
+  margin-top: 10px;
+}
+.pdf a {
+  text-decoration: none;
+  color: hotpink;
+  background: floralwhite;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 .portfolio-item {
@@ -164,18 +176,22 @@ embed {
 .portfolio-item p {
   background: floralwhite;
   color: black;
-  border-radius: 5px;
+}
+
+.last {
+  border-radius: 0 0 5px 5px;
 }
 
 .portfolio-item img {
   padding: 10px;
   background: floralwhite;
-  border-radius: 5px;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .portfolio-heading {
   font-size: 20px;
+  border-radius: 5px 5px 0 0;
 }
 
 .portfolio-item a {
@@ -192,4 +208,7 @@ embed {
 .contact-content a {
   text-decoration: none;
   color: hotpink;
+}
+.contact-content ul li {
+  list-style-type: none;
 }
