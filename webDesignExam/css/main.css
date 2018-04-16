@@ -1,0 +1,26 @@
+body{
+  width: 100%;
+  margin: 0;
+  background-image: url("../images/light-veneer.png");
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0;
+}
+
+.first {
+  border: solid blue 5px;
+  padding: 5%;
+  width: 50%;
+  margin: 0;
+}
+.second {
+  border: solid blue 5px;
+  padding: 5%;
+  width: 50%;
+  margin: 0;
+}

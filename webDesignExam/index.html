@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Final Exam</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript">
+      function hideImage() {
+        var colleensImage = document.getElementById('colleen');
+        colleensImage.style.display = "none";
+      }
+      function showImage() {
+        var colleensImage = document.getElementById('colleen');
+        colleensImage.style.display = "block";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Catie Olson</h1>
+    <div class="container">
+    <div class="first" id="colleen">
+      <img src="images/examPic.JPG" alt="Colleen and two friends">
+    </div>
+    <div class="second">
+      <img src="images/UMSI-logo.jpg" alt="UMSI logo">
+    </div>
+    </div>
+    <button type="button" name="hide" onclick="hideImage()">Hide Image</button>
+    <button type="button" name="show" onclick="showImage()">Show Image</button>
+  </body>
+</html>
